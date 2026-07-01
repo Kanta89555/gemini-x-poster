@@ -1,0 +1,1392 @@
+{
+  "project": {
+    "title": "情報セキュリティ完全ガイド",
+    "version": "1.0.0",
+    "language": "ja",
+    "description": "基本情報・応用情報レベルの教材サイト"
+  },
+  "topics": [
+    {
+      "id": "security",
+      "title": "情報セキュリティ",
+      "slug": "security",
+      "level": 0,
+      "article": false,
+      "status": "completed",
+      "children": [
+        {
+          "id": "fundamentals",
+          "title": "情報セキュリティの基礎",
+          "slug": "fundamentals",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "information-asset",
+              "title": "情報資産とは",
+              "slug": "information-asset",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "vulnerability",
+              "title": "脆弱性の種類",
+              "slug": "vulnerability",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "defense-in-depth",
+              "title": "多層防御とセキュリティバイデザイン",
+              "slug": "defense-in-depth",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "cia",
+          "title": "CIA（情報セキュリティの7要素）",
+          "slug": "cia",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "confidentiality",
+              "title": "機密性",
+              "slug": "confidentiality",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "integrity",
+              "title": "完全性",
+              "slug": "integrity",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "availability",
+              "title": "可用性",
+              "slug": "availability",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "authenticity",
+              "title": "真正性",
+              "slug": "authenticity",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "accountability",
+              "title": "責任追跡性",
+              "slug": "accountability",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "non-repudiation",
+              "title": "否認防止",
+              "slug": "non-repudiation",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "reliability",
+              "title": "信頼性",
+              "slug": "reliability",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "threat-actors",
+          "title": "脅威の分類と攻撃者",
+          "slug": "threat-actors",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "threat-types",
+              "title": "脅威の種類（人的・技術的・物理的脅威）",
+              "slug": "threat-types",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "fraud-triangle",
+              "title": "不正のトライアングル",
+              "slug": "fraud-triangle",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "attacker-types",
+              "title": "攻撃者の種類と動機",
+              "slug": "attacker-types",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "cyber-kill-chain",
+              "title": "サイバーキルチェーン",
+              "slug": "cyber-kill-chain",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "dark-web",
+              "title": "ダークウェブ",
+              "slug": "dark-web",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "social-engineering",
+          "title": "人的脅威・ソーシャルエンジニアリング",
+          "slug": "social-engineering",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "social-engineering-techniques",
+              "title": "ソーシャルエンジニアリングの手口",
+              "slug": "social-engineering-techniques",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "insider-threat",
+              "title": "内部不正",
+              "slug": "insider-threat",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "targeted-scams",
+              "title": "フィッシング詐欺とビジネスメール詐欺",
+              "slug": "targeted-scams",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "malware",
+          "title": "マルウェア・不正プログラム",
+          "slug": "malware",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "virus-worm",
+              "title": "コンピュータウイルスとワーム",
+              "slug": "virus-worm",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "trojan-backdoor",
+              "title": "トロイの木馬・バックドア・ルートキット",
+              "slug": "trojan-backdoor",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "spyware-keylogger",
+              "title": "スパイウェアとキーロガー",
+              "slug": "spyware-keylogger",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "ransomware",
+              "title": "ランサムウェア",
+              "slug": "ransomware",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "bot-botnet",
+              "title": "ボットとボットネット",
+              "slug": "bot-botnet",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "fileless-malware",
+              "title": "ファイルレスマルウェア",
+              "slug": "fileless-malware",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "fake-security-software",
+              "title": "偽セキュリティ対策ソフト",
+              "slug": "fake-security-software",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "network-attacks",
+          "title": "ネットワークへの攻撃",
+          "slug": "network-attacks",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "reconnaissance",
+              "title": "事前調査（フットプリンティング・ポートスキャン）",
+              "slug": "reconnaissance",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "dos-ddos",
+              "title": "DoS攻撃・DDoS攻撃",
+              "slug": "dos-ddos",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "spoofing",
+              "title": "なりすまし攻撃（IP・ARP・DNS）",
+              "slug": "spoofing",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "mitm",
+              "title": "中間者攻撃（MITM・MITB）",
+              "slug": "mitm",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "session-hijack",
+              "title": "セッションハイジャックとリプレイ攻撃",
+              "slug": "session-hijack",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "side-channel-attack",
+              "title": "サイドチャネル攻撃",
+              "slug": "side-channel-attack",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "password-attacks",
+          "title": "パスワードに対する攻撃",
+          "slug": "password-attacks",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "brute-force",
+              "title": "ブルートフォース攻撃",
+              "slug": "brute-force",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "dictionary-rainbow",
+              "title": "辞書攻撃・レインボーテーブル攻撃",
+              "slug": "dictionary-rainbow",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "password-list-attack",
+              "title": "パスワードリスト攻撃",
+              "slug": "password-list-attack",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "web-attacks",
+          "title": "Webアプリケーションへの攻撃",
+          "slug": "web-attacks",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "sql-injection",
+              "title": "SQLインジェクション",
+              "slug": "sql-injection",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "xss",
+              "title": "クロスサイトスクリプティング（XSS）",
+              "slug": "xss",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "csrf",
+              "title": "クロスサイトリクエストフォージェリ（CSRF）",
+              "slug": "csrf",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "clickjacking",
+              "title": "クリックジャッキング",
+              "slug": "clickjacking",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "directory-traversal",
+              "title": "ディレクトリトラバーサル",
+              "slug": "directory-traversal",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "os-command-injection",
+              "title": "OSコマンドインジェクション",
+              "slug": "os-command-injection",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "buffer-overflow",
+              "title": "バッファオーバーフロー攻撃",
+              "slug": "buffer-overflow",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "drive-by-download",
+              "title": "ドライブバイダウンロード",
+              "slug": "drive-by-download",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "advanced-attacks",
+          "title": "標的型・先進的な攻撃",
+          "slug": "advanced-attacks",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "apt",
+              "title": "標的型攻撃（APT）",
+              "slug": "apt",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "zero-day",
+              "title": "ゼロデイ攻撃",
+              "slug": "zero-day",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "watering-hole",
+              "title": "水飲み場型攻撃",
+              "slug": "watering-hole",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "supply-chain-attack",
+              "title": "サプライチェーン攻撃",
+              "slug": "supply-chain-attack",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "ai-security-threats",
+              "title": "AIに対する脅威",
+              "slug": "ai-security-threats",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "cryptography-basics",
+          "title": "暗号技術の基礎",
+          "slug": "cryptography-basics",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "encryption-overview",
+              "title": "暗号化の基礎",
+              "slug": "encryption-overview",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "common-key-cryptography",
+              "title": "共通鍵暗号方式",
+              "slug": "common-key-cryptography",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "public-key-cryptography",
+              "title": "公開鍵暗号方式",
+              "slug": "public-key-cryptography",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "hybrid-cryptography",
+              "title": "ハイブリッド暗号方式",
+              "slug": "hybrid-cryptography",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "key-exchange",
+              "title": "鍵交換（Diffie-Hellman）",
+              "slug": "key-exchange",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "cryptrec",
+              "title": "CRYPTRECと暗号の危殆化",
+              "slug": "cryptrec",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "integrity-tech",
+          "title": "完全性・署名技術",
+          "slug": "integrity-tech",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "hash-function",
+              "title": "ハッシュ関数",
+              "slug": "hash-function",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "message-authentication-code",
+              "title": "メッセージ認証符号（MAC）",
+              "slug": "message-authentication-code",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "digital-signature",
+              "title": "デジタル署名",
+              "slug": "digital-signature",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "timestamp",
+              "title": "タイムスタンプ",
+              "slug": "timestamp",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "authentication",
+          "title": "認証技術",
+          "slug": "authentication",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "password-authentication",
+              "title": "パスワード認証とパスワード保護",
+              "slug": "password-authentication",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "multi-factor-authentication",
+              "title": "多要素認証・多段階認証",
+              "slug": "multi-factor-authentication",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "biometric-authentication",
+              "title": "生体認証",
+              "slug": "biometric-authentication",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "one-time-password",
+              "title": "ワンタイムパスワードとチャレンジレスポンス認証",
+              "slug": "one-time-password",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "passwordless-authentication",
+              "title": "パスワードレス認証（FIDO）",
+              "slug": "passwordless-authentication",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "single-sign-on",
+              "title": "シングルサインオン（SSO）",
+              "slug": "single-sign-on",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "kerberos",
+              "title": "Kerberos方式",
+              "slug": "kerberos",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "captcha",
+              "title": "CAPTCHA",
+              "slug": "captcha",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "pki",
+          "title": "PKI",
+          "slug": "pki",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "certificate",
+              "title": "電子証明書",
+              "slug": "certificate",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "crl",
+              "title": "CRL",
+              "slug": "crl",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "ocsp",
+              "title": "OCSP",
+              "slug": "ocsp",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "certificate-authority",
+              "title": "認証局とルート証明書",
+              "slug": "certificate-authority",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "certificate-types",
+              "title": "サーバ証明書・クライアント証明書",
+              "slug": "certificate-types",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "gpki",
+              "title": "GPKIとブリッジ認証局",
+              "slug": "gpki",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "network-security",
+          "title": "ネットワークセキュリティ対策",
+          "slug": "network-security",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "firewall",
+              "title": "ファイアウォール",
+              "slug": "firewall",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "dmz",
+              "title": "DMZ",
+              "slug": "dmz",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "ids-ips",
+              "title": "IDS・IPS",
+              "slug": "ids-ips",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "waf",
+              "title": "WAF",
+              "slug": "waf",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "utm",
+              "title": "UTM",
+              "slug": "utm",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "vpn",
+              "title": "VPN",
+              "slug": "vpn",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "proxy",
+              "title": "プロキシサーバ",
+              "slug": "proxy",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "quarantine-network",
+              "title": "検疫ネットワーク",
+              "slug": "quarantine-network",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "sandbox-honeypot",
+              "title": "サンドボックスとハニーポット",
+              "slug": "sandbox-honeypot",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "filtering",
+              "title": "URLフィルタリング・コンテンツフィルタリング",
+              "slug": "filtering",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "zero-trust",
+              "title": "ゼロトラストと境界型防御",
+              "slug": "zero-trust",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "cloud-security",
+              "title": "クラウドセキュリティと責任共有モデル",
+              "slug": "cloud-security",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "secure-protocols",
+          "title": "セキュアプロトコル",
+          "slug": "secure-protocols",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "ssl-tls",
+              "title": "SSL/TLS",
+              "slug": "ssl-tls",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "ipsec",
+              "title": "IPsec",
+              "slug": "ipsec",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "ssh",
+              "title": "SSH",
+              "slug": "ssh",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "wireless-security",
+              "title": "無線LANの暗号化（WPA2・WPA3）",
+              "slug": "wireless-security",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "smime-pgp",
+              "title": "S/MIMEとPGP",
+              "slug": "smime-pgp",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "email-authentication",
+              "title": "メール認証（SPF・DKIM・DMARC）",
+              "slug": "email-authentication",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "radius",
+              "title": "RADIUSとDiameter",
+              "slug": "radius",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "eap",
+              "title": "EAP・EAP-TLS・PEAP",
+              "slug": "eap",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "oauth-dnssec",
+              "title": "OAuthとDNSSEC",
+              "slug": "oauth-dnssec",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "os-app-security",
+          "title": "OS・アプリケーションのセキュリティ",
+          "slug": "os-app-security",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "access-control",
+              "title": "アクセス制御と最小特権の原則",
+              "slug": "access-control",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "secure-os",
+              "title": "トラステッドOSとセキュアブート",
+              "slug": "secure-os",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "secure-programming",
+              "title": "セキュアプログラミングと脅威モデリング",
+              "slug": "secure-programming",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "code-review",
+              "title": "ソースコード検査（静的・動的）",
+              "slug": "code-review",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "cors",
+              "title": "Same Origin PolicyとCORS",
+              "slug": "cors",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "privacy-by-design",
+              "title": "プライバシーバイデザイン",
+              "slug": "privacy-by-design",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "security-operations",
+          "title": "情報セキュリティ対策・運用",
+          "slug": "security-operations",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "technical-measures",
+              "title": "技術的セキュリティ対策の全体像",
+              "slug": "technical-measures",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "edr-dlp-siem",
+              "title": "EDR・DLP・SIEM・RASP",
+              "slug": "edr-dlp-siem",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "digital-forensics",
+              "title": "デジタルフォレンジックス",
+              "slug": "digital-forensics",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "physical-security",
+              "title": "物理的セキュリティ対策",
+              "slug": "physical-security",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "human-security",
+              "title": "人的セキュリティ対策",
+              "slug": "human-security",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "device-management",
+              "title": "MDM・CASB・IdP",
+              "slug": "device-management",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "redundancy",
+              "title": "冗長化と可用性対策（RASIS・UPS）",
+              "slug": "redundancy",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "risk-management",
+          "title": "リスクマネジメント",
+          "slug": "risk-management",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "risk-assessment",
+              "title": "リスクアセスメント",
+              "slug": "risk-assessment",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "risk-treatment",
+              "title": "リスク対応（回避・低減・移転・保有）",
+              "slug": "risk-treatment",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "risk-types",
+              "title": "リスクの種類",
+              "slug": "risk-types",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "business-continuity",
+              "title": "事業継続計画（BCP）",
+              "slug": "business-continuity",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "isms",
+          "title": "情報セキュリティマネジメント（ISMS）",
+          "slug": "isms",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "information-security-policy",
+              "title": "情報セキュリティポリシー",
+              "slug": "information-security-policy",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "isms-overview",
+              "title": "ISMSの仕組みとPDCA",
+              "slug": "isms-overview",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "jis-q-27000",
+              "title": "JIS Q 27000ファミリー",
+              "slug": "jis-q-27000",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "security-governance",
+              "title": "情報セキュリティガバナンス",
+              "slug": "security-governance",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "incident-management",
+              "title": "インシデント管理",
+              "slug": "incident-management",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "nist-csf",
+              "title": "サイバーセキュリティフレームワーク",
+              "slug": "nist-csf",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "security-evaluation",
+          "title": "セキュリティ技術評価",
+          "slug": "security-evaluation",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "cvss",
+              "title": "CVSS・CVE・CWE",
+              "slug": "cvss",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "iso-15408",
+              "title": "ISO/IEC 15408",
+              "slug": "iso-15408",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "pci-dss",
+              "title": "PCI DSS",
+              "slug": "pci-dss",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "penetration-test",
+              "title": "ペネトレーションテストと脆弱性診断",
+              "slug": "penetration-test",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "tamper-resistance",
+              "title": "耐タンパ性",
+              "slug": "tamper-resistance",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "security-organizations",
+          "title": "セキュリティ組織・制度",
+          "slug": "security-organizations",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "csirt-soc",
+              "title": "CSIRTとSOC",
+              "slug": "csirt-soc",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "jpcert",
+              "title": "JPCERT/CCと届出制度",
+              "slug": "jpcert",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "security-partnership",
+              "title": "情報セキュリティ早期警戒パートナーシップ",
+              "slug": "security-partnership",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "ethical-hacker",
+              "title": "ホワイトハッカーとレッドチーム演習",
+              "slug": "ethical-hacker",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "security-laws",
+          "title": "情報セキュリティ関連法規",
+          "slug": "security-laws",
+          "level": 1,
+          "article": true,
+          "status": "todo",
+          "children": [
+            {
+              "id": "unauthorized-access-law",
+              "title": "不正アクセス禁止法",
+              "slug": "unauthorized-access-law",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "personal-information-protection-law",
+              "title": "個人情報保護法",
+              "slug": "personal-information-protection-law",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "cybersecurity-basic-law",
+              "title": "サイバーセキュリティ基本法",
+              "slug": "cybersecurity-basic-law",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            },
+            {
+              "id": "certification-schemes",
+              "title": "プライバシーマークとISMAP",
+              "slug": "certification-schemes",
+              "level": 2,
+              "article": true,
+              "status": "todo",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

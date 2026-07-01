@@ -1,97 +1,38 @@
-# Gemini X Poster
+# IMFORMATION_GENERATER
 
-AI-powered content generator using Next.js and Google Gemini API.
+AI と Codex を利用して教材サイトを自動生成するためのプロジェクトです。
 
-## Features
+現時点では、生成エンジンの土台となるフォルダ、プロンプト、共通知識、テンプレート、ドキュメントのみを用意しています。
 
-- Generate content using Google Gemini API
-- Store outputs in Neon PostgreSQL database with Prisma ORM
-- Modern UI with Tailwind CSS
-- Next.js 14 App Router
+## ディレクトリ構成
 
-## Tech Stack
+- `engine/prompts/`: 教材生成工程ごとのプロンプトテンプレート
+- `engine/prompts/styles/`: 分野別の文体・用語ルール
+- `engine/knowledge/`: 共通知識、用語、参照情報
+- `engine/templates/`: HTML やエクスポート形式のテンプレート
+- `scripts/`: 将来の生成スクリプト配置先
+- `articles/`: 将来の記事データ配置先
+- `public/`: 公開用アセット配置先
+- `exports/`: 生成結果の出力先
+- `docs/`: 設計やワークフローのドキュメント
 
-- **Framework**: Next.js 14.2.3
-- **UI**: React 18, Tailwind CSS
-- **AI**: Google Generative AI
-- **Database**: Neon PostgreSQL + Prisma ORM
-- **Language**: TypeScript
+## 自動生成の入口
 
-## Getting Started
+記事生成の土台として、次のコマンドでトピック候補を確認できます。
 
-### Prerequisites
+- `npm run test:generate`
+- `node scripts/generate-article.js`
 
-- Node.js 18+
-- Google Gemini API key
-- Neon database URL
+実際に記事の雛形を生成する場合は、次のコマンドを使用します。
 
-### Installation
+- `npm run generate:article`
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Kanta89555/gemini-x-poster.git
-cd gemini-x-poster
-```
+このコマンドは、未着手のトピックを検索し、Markdown と HTML の雛形を articles/ と public/ に出力します。
 
-2. Install dependencies:
-```bash
-npm install
-```
+## 今後の予定
 
-3. Set up environment variables:
-```bash
-cp .env.example .env.local
-```
-
-Edit `.env.local` and add:
-- `GOOGLE_API_KEY`: Your Gemini API key
-- `DATABASE_URL`: Your Neon database URL
-
-4. Initialize the database:
-```bash
-npx prisma generate
-npx prisma db push
-```
-
-5. Run the development server:
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Project Structure
-
-```
-my-gemini-app/
-├── app/                    # Next.js app directory
-│   ├── api/generate/      # Gemini API endpoint
-│   ├── outputs/           # Output list and details pages
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Home page
-│   └── globals.css        # Global styles
-├── components/            # React components
-├── lib/                   # Utilities and configs
-├── prisma/               # Database schema
-├── public/               # Static assets
-└── package.json
-```
-
-## Database Schema
-
-The app stores generated content in a `Output` table with:
-- id (unique identifier)
-- prompt (input text)
-- response (generated content)
-- createdAt (timestamp)
-
-## Development
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm start` - Start production server
-- `npm run lint` - Run ESLint
-
-## License
-
-MIT
+- プロンプト内容の具体化
+- 教材生成ワークフローの定義
+- 記事データ形式の設計
+- HTML、note、PDF などの出力テンプレート整備
+- 生成・検証用スクリプトの追加
